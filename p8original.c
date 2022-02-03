@@ -36,7 +36,7 @@ void output(int x , struct complexnum a[x],struct complexnum c)
   {
     printf("%d+%di\n",a[g].real,a[g].img);
   }
-  printf("The sum of the give complexnumbers is: %d+%di",c.real,c.img);
+  printf("The sum of the give complexnumbers is: %d+%di\n",c.real,c.img);
 }
 int main()
 {
